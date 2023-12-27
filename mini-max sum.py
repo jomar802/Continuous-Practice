@@ -16,13 +16,16 @@ def miniMaxSum(arr):
     # Write your code here
     if len(arr) <= 0:
         return 0
+    
     else:
         first = arr[0]
         total = 0
+
         for i in range(1, len(arr)):
+
             if arr[i] == first:
                 total = arr[i] + total
-                continue
+
             else:
                 size = len(arr)
                 max_sum = 0
@@ -48,6 +51,14 @@ def miniMaxSum(arr):
                 
             
     
-            
+
+
+x = [5,6,4,7,8,9,7]
+y = [1,1,1,1,1]
+
+miniMaxSum(x)
+miniMaxSum(y)
+
+           
 
 
