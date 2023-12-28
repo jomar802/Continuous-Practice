@@ -1,1 +1,1 @@
-Continuous development.
+Some HackerRank exercises for practie.
