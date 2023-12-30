@@ -20,8 +20,7 @@ def timeConversion(s):
         if s[8:] == "PM" and int(s[:2]) == 12:
             print(result)
             return
-
-        
+       
         if s[8:] == "AM" and int(s[:2]) < 12:
             print(result)
             return
